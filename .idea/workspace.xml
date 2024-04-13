@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="54d74d6f-3b26-4240-9ace-7f984fc4c165" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaAtmSimulator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Challenge.java" afterDir="false" />
+    <list default="true" id="54d74d6f-3b26-4240-9ace-7f984fc4c165" name="Changes" comment="doc: Cria README">
+      <change beforePath="$PROJECT_DIR$/src/Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Challenge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +50,37 @@
       <option name="presentableId" value="Default" />
       <updated>1712963771573</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat: Primeiro commit!">
+      <option name="closed" value="true" />
+      <created>1712964326366</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712964326366</updated>
+    </task>
+    <task id="LOCAL-00002" summary="chore: Cria licença de uso">
+      <option name="closed" value="true" />
+      <created>1712964424078</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712964424078</updated>
+    </task>
+    <task id="LOCAL-00003" summary="doc: Cria README">
+      <option name="closed" value="true" />
+      <created>1712964654672</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712964654672</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: Primeiro commit!" />
+    <MESSAGE value="chore: Cria licença de uso" />
+    <MESSAGE value="doc: Cria README" />
+    <option name="LAST_COMMIT_MESSAGE" value="doc: Cria README" />
   </component>
 </project>
