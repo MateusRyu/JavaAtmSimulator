@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54d74d6f-3b26-4240-9ace-7f984fc4c165" name="Changes" comment="feat: Implementa funcionalidades da ATM" />
+    <list default="true" id="54d74d6f-3b26-4240-9ace-7f984fc4c165" name="Changes" comment="feat: Cria a classe Atm e seus atributos">
+      <change afterPath="$PROJECT_DIR$/src/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Atm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Challenge.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -80,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712986867925</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: Cria a classe Atm e seus atributos">
+      <option name="closed" value="true" />
+      <created>1713072586077</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713072586077</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -88,6 +104,7 @@
     <MESSAGE value="chore: Cria licença de uso" />
     <MESSAGE value="doc: Cria README" />
     <MESSAGE value="feat: Implementa funcionalidades da ATM" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Implementa funcionalidades da ATM" />
+    <MESSAGE value="feat: Cria a classe Atm e seus atributos" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Cria a classe Atm e seus atributos" />
   </component>
 </project>
