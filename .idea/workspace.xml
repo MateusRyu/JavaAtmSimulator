@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54d74d6f-3b26-4240-9ace-7f984fc4c165" name="Changes" comment="doc: Cria README">
-      <change beforePath="$PROJECT_DIR$/src/Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Challenge.java" afterDir="false" />
-    </list>
+    <list default="true" id="54d74d6f-3b26-4240-9ace-7f984fc4c165" name="Changes" comment="feat: Implementa funcionalidades da ATM" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,25 +20,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2f1LiFwyp0WZ26tDQ48cv2Vik8l" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Challenge.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/home/ryu-arco/IdeaProjects/JavaAtmSimulator/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Challenge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/ryu-arco/IdeaProjects/JavaAtmSimulator/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,13 +72,22 @@
       <option name="project" value="LOCAL" />
       <updated>1712964654672</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: Implementa funcionalidades da ATM">
+      <option name="closed" value="true" />
+      <created>1712986867924</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712986867925</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: Primeiro commit!" />
     <MESSAGE value="chore: Cria licença de uso" />
     <MESSAGE value="doc: Cria README" />
-    <option name="LAST_COMMIT_MESSAGE" value="doc: Cria README" />
+    <MESSAGE value="feat: Implementa funcionalidades da ATM" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Implementa funcionalidades da ATM" />
   </component>
 </project>
