@@ -1,14 +1,15 @@
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 
 public class BankAccount {
-    private int number;
-    private String password;
-    private String owner;
-    private String accountType;
+    private final int number;
+    private final String password;
+    private final String owner;
+    private final String accountType;
     private double cash;
-    private final StringBuilder receipt;
-    private String divider = "=".repeat(40);
+    private ArrayList<String> receipt;
+    private final String divider = "=".repeat(40);
 
     public BankAccount(int number, String password, String owner, String accountType, double cash) {
         this.number = number;
@@ -16,11 +17,10 @@ public class BankAccount {
         this.owner = owner;
         this.accountType = accountType;
         this.cash = cash;
-        receipt = new StringBuilder(getResume());
     }
 
     public String getResume() {
-        return String.format("%s\nNome do cliente: %s\nTipo da conta: %s\nSaldo atual: %.2f\n%s\n", divider, owner, accountType, cash, divider);
+        return String.format("%s\nNúmero da conta: %d\nNome do cliente: %s\nTipo da conta: %s\nSaldo atual: %.2f\n%s\n", divider, number, owner, accountType, cash, divider);
     }
 
     private String getTimestamp() {
@@ -28,8 +28,8 @@ public class BankAccount {
     }
 
     private void registerAction(String action) {
-        String timeStamp = "\n" + getTimestamp() + "\n";
-        receipt.append(timeStamp).append(action).append("\n\n").append(divider).append("\n");
+        String log = String.format("\n%s\n%s\n\n%s\n", getTimestamp(), action, this.divider);
+        this.receipt.add(log);
     }
 
     public void printCash() {
@@ -39,7 +39,10 @@ public class BankAccount {
     }
 
     void printReceipt() {
-        System.out.println("Recibo impreso em:" + getTimestamp() + "\n\n" + receipt);
+        System.out.println("Recibo impreso em:" + getTimestamp() + "\n\n" + getResume());
+        for (String action : receipt) {
+            System.out.println(action);
+        }
     }
 
     void sendCash(double value) {
