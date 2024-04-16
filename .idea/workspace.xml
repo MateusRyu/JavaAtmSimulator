@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54d74d6f-3b26-4240-9ace-7f984fc4c165" name="Changes" comment="feat: Cria a classe Atm e seus atributos">
-      <change afterPath="$PROJECT_DIR$/src/BankAccount.java" afterDir="false" />
+    <list default="true" id="54d74d6f-3b26-4240-9ace-7f984fc4c165" name="Changes" comment="refactor: Atualiza classe Challenge para a abstração da nova classe BankAccount">
+      <change afterPath="$PROJECT_DIR$/src/Atm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Atm.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Challenge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +95,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713072586077</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: Renomeia a classe Atm para BankAccount e cria seus metodos">
+      <option name="closed" value="true" />
+      <created>1713079168689</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713079168689</updated>
+    </task>
+    <task id="LOCAL-00007" summary="refactor: Atualiza classe Challenge para a abstração da nova classe BankAccount">
+      <option name="closed" value="true" />
+      <created>1713079245299</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713079245299</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -105,6 +120,8 @@
     <MESSAGE value="doc: Cria README" />
     <MESSAGE value="feat: Implementa funcionalidades da ATM" />
     <MESSAGE value="feat: Cria a classe Atm e seus atributos" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Cria a classe Atm e seus atributos" />
+    <MESSAGE value="feat: Renomeia a classe Atm para BankAccount e cria seus metodos" />
+    <MESSAGE value="refactor: Atualiza classe Challenge para a abstração da nova classe BankAccount" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: Atualiza classe Challenge para a abstração da nova classe BankAccount" />
   </component>
 </project>
